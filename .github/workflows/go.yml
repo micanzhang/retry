@@ -27,3 +27,5 @@ jobs:
     - name: Run golangci-lint
       uses: golangci/golangci-lint-action@v3.1.0
 
+    - name: Codecov
+      uses: codecov/codecov-action@v3.1.0
